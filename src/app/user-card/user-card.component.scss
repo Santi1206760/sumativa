@@ -1,0 +1,32 @@
+.flex-item-left {
+    display: flex;
+    flex-direction: column;
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  ion-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #555; /* Bordes más oscuros para la imagen */
+  }
+  
+  ion-card-content {
+    padding: 15px;
+  }
+  
+  ion-card-title {
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+  }
+  
+  p {
+    margin: 0;
+    font-size: 1.2em; /* Tamaño de fuente */
+  }
+  
